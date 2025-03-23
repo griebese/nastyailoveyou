@@ -12,10 +12,8 @@ function selectOption(option) {
     } else if (option === 'no') {
         // Change text on the "Нет" button to "ВАЩЕТО ТЫ КОТЕК"
         document.getElementById('no-button').innerText = 'ВАЩЕТО ТЫ КОТЕК'; 
-        // Change text on the "ВАЩЕТО ТЫ КОТЕК" button to "ДА-ДА ТЫ!"
-        document.getElementById('no-button').innerText = 'ДА-ДА ТЫ!'; 
-         // Change text on the "ДА-ДА ТЫ!" button to "КУСЬ???"
-         document.getElementById('no-button').innerText = 'КУСЬ???'; 
+        // Change text on the "ВАЩЕТО ТЫ КОТЕК" button to "ЭЭЭ СЛЫШ ТЫ!!"
+        document.getElementById('no-button').innerText = 'ЭЭЭ СЛЫШ ТЫ!!';
         // Increase font size of "Да" button
         var yesButton = document.getElementById('yes-button');
         var currentFontSize = window.getComputedStyle(yesButton).getPropertyValue('font-size');
